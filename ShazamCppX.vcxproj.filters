@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{191157ab-ec7f-432d-b2fb-98c2f8767bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{3be553c4-1bd0-4c09-98d6-091132c311f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{06cdcf34-f1b3-49b8-ada3-d93b6b3f19c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{11344199-7588-4c3d-91e0-fc3fa360fa4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShazamAlgorithm">
+      <UniqueIdentifier>{8d17d87e-2ce0-4630-886b-005593d8d0b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test\test_Audio.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test_DB.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test_FFT.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test_FileSystem.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test_Log.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\CMySqlWrapper.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd_Party\maximilian\maximilian.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\testEncoder.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShazamAlgorithm\CHashEncoder.h">
+      <Filter>ShazamAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash\FFTWrapper.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash\Hash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\CMySqlWrapper.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\ServerSet.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="General\MyTime.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd_Party\maximilian\maximilian.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ShazamAlgorithm\CMusicSearcher.h">
+      <Filter>ShazamAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioRead.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
