@@ -16,6 +16,6 @@
 - [Shazam paper](http://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf);
 
 ## An advertisement 一个广告
-- This is a QR-code of my bio in wechat.这是我微信公众号的二维码，觉得这个程序帮助到你的就扫一下关注吧~可以通过这个公众号来联系我。
+- 微信搜索 胜利村Jeff同学 可以关注我
 
-![公众号二维码](https://ws1.sinaimg.cn/large/d35f5de2gy1g0m7bpk7hbj2076076gm2.jpg)
+
